@@ -1,0 +1,30 @@
+.dashboard_container{
+    margin: 2rem;
+}
+
+.dashboard_charts_container{
+    margin: 3rem;
+    display: flex;
+    justify-content:space-between;
+
+    @media (max-width: 1000px) {
+       flex-direction: column;
+      }
+}
+
+.status_select{
+    width: 20%;
+}
+
+.no-data-found{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dashboard_container_title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}

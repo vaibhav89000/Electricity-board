@@ -1,0 +1,18 @@
+.applicant_details_container{
+    margin: 1rem 3rem;
+}
+
+.edit_btn{
+    float: right;
+}
+
+.submit_btn{
+    float: right;
+}
+
+.no-data-found{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

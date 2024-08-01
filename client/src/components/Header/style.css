@@ -1,0 +1,13 @@
+.navbar-nav {
+    a{
+        color: #a7acb1;
+        text-decoration: unset;
+    }
+}
+a.active {
+    color: white; 
+  }
+
+.navbar-brand{
+    color:  #a7acb1;
+}
